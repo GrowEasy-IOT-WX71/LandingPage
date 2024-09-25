@@ -16,6 +16,7 @@
     <!-- TITLE -->
     <title>GrowEasy Innovators</title>
     <!-- LINKS -->
+    <link rel="icon" href="assets/images/groweasy.png" type="image/png">
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -41,11 +42,11 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center h1 fw-bold" href="#">
-          <img src="./assets/images/image.png" alt="logo"
-            width="70"
-            height="50"
-            class="d-inline-block align-text-top"
-            style="margin-right: 30px;"
+          <img src="assets/images/groweasy.png" alt="logo"
+               width="70"
+               height="50"
+               class="d-inline-block align-text-top"
+               style="margin-right: 30px;"
           />
           GrowEasy Innovators
         </a>
@@ -108,46 +109,12 @@
     </section>
 
     <!-- SERVICES -->
-    <section class="p-5" id="services">
+    <section class="py-5" id="services">
       <div class="container py-5">
         <h1 class="text-center mb-5 level-1-title fw-bold">
           Nuestros servicios
         </h1>
         <div class="row text-center g-4">
-          <div class="col-md">
-            <div class="card p-5">
-              <div class="card-body text-center">
-                <div class="h1 mb-3">
-                  <i class="fa-solid fa-book" style="color: #acc864"></i>
-                </div>
-                <h2 class="level-2-title card-title mb-3">Monitoreo en tiempo real</h2>
-                <p class="card-text paragraph lead">
-                  A través de nuestra tecnología IoT, brindamos a los agricultores la posibilidad de supervisar en tiempo
-                  real parámetros como la temperatura, humedad, intensidad del viento e iluminación de sus cultivos.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md">
-            <div class="card p-5">
-              <div class="card-body text-center">
-                <div class="h1 mb-3">
-                  <i
-                    class="fa-solid fa-screwdriver-wrench"
-                    style="color: #acc864"
-                  ></i>
-                </div>
-                <h2 class="level-2-title card-title mb-3">
-                  Automatización del cultivo
-                </h2>
-                <p class="card-text paragraph lead">
-                  Nuestra solución incluye herramientas de automatización que ajustan de manera precisa las condiciones de cultivo, reduciendo el margen de error humano.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div class="col-md">
             <div class="card p-5">
               <div class="card-body text-center">
@@ -166,6 +133,25 @@
             <div class="card p-5">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
+                  <i
+                          class="fa-solid fa-screwdriver-wrench"
+                          style="color: #acc864"
+                  ></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">
+                  Automatización del cultivo
+                </h2>
+                <p class="card-text paragraph lead">
+                  Nuestra solución incluye herramientas de automatización que ajustan de manera precisa las condiciones de cultivo, reduciendo el margen de error humano.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card p-5">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
                   <i class="fa-solid fa-leaf" style="color: #acc864"></i>
                 </div>
                 <h2 class="level-2-title card-title mb-3">Soporte técnico especializado</h2>
@@ -175,12 +161,27 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md">
+            <div class="card p-5">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="fa-solid fa-book" style="color: #acc864"></i>
+                </div>
+                <h2 class="level-2-title card-title mb-3">Monitoreo en tiempo real</h2>
+                <p class="card-text paragraph lead">
+                  A través de nuestra tecnología IoT, brindamos a los agricultores la posibilidad de supervisar en tiempo
+                  real parámetros como la temperatura, humedad, intensidad del viento e iluminación de sus cultivos.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="bg-light p-5" id="about">
+    <section class="bg-light" id="about">
       <div class="container py-5">
         <div class="row justify-content-between align-items-center">
           <div class="col-md">
@@ -204,7 +205,7 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <section class="p-5 bg-success" id="testimonials">
+    <section class="bg-success py-5" id="testimonials">
       <div class="container py-5">
         <h1 class="text-center level-1-title-white fw-bold">Testimonios</h1>
 
@@ -244,6 +245,35 @@
             <div class="card bg-light">
               <div class="card-body text-center p-5">
                 <img
+                        class="img-fluid img-thumbnail mb-3"
+                        src="assets/images/p3.jpg"
+                        alt="foto de Jean Quispe"
+                />
+                <h3 class="card-title mb-3 level-2-title fw-bold">
+                  Luis Gabriel - 31 años
+                </h3>
+                <div class="small-ratings mb-3">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p class="card-text paragraph">
+                  "Desde que adopté las soluciones de GrowEasy Innovators, mi granja en casa
+                  ha alcanzado otro nivel. El control automatizado de mis cultivos ha hecho que
+                  todo el proceso sea más eficiente y me ha permitido reducir errores. La posibilidad
+                  de gestionar mis plantas de manera remota es increíble, y la comunidad me ha dado el
+                  impulso para seguir mejorando. ¡Estoy cosechando independencia y calidad!"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center p-5">
+                <img
                   class="img-fluid img-thumbnail mb-3"
                   src="assets/images/p2.webp"
                   alt="foto de Xiomara Vélez"
@@ -267,41 +297,12 @@
               </div>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="card bg-light">
-              <div class="card-body text-center p-5">
-                <img
-                  class="img-fluid img-thumbnail mb-3"
-                  src="assets/images/p3.jpg"
-                  alt="foto de Jean Quispe"
-                />
-                <h3 class="card-title mb-3 level-2-title fw-bold">
-                  Luis Gabriel - 31 años
-                </h3>
-                <div class="small-ratings mb-3">
-                  <i class="fa fa-star rating-color"></i>
-                  <i class="fa fa-star rating-color"></i>
-                  <i class="fa fa-star rating-color"></i>
-                  <i class="fa fa-star rating-color"></i>
-                  <i class="fa fa-star"></i>
-                </div>
-                <p class="card-text paragraph">
-                  "Desde que adopté las soluciones de GrowEasy Innovators, mi granja en casa
-                  ha alcanzado otro nivel. El control automatizado de mis cultivos ha hecho que
-                  todo el proceso sea más eficiente y me ha permitido reducir errores. La posibilidad
-                  de gestionar mis plantas de manera remota es increíble, y la comunidad me ha dado el
-                  impulso para seguir mejorando. ¡Estoy cosechando independencia y calidad!"
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
     <!-- DOWNLOAD -->
-    <section class="p-5 bg-light" id="download">
+    <section class="bg-light" id="download">
       <div class="container py-5">
         <div class="row justify-content-between align-items-center">
           <div class="col-md">
@@ -344,7 +345,7 @@
 
     <!-- FOOTER -->
     <footer
-      class="page-footer p-5 text-md-left bg-dark text-white"
+      class="page-footer text-md-left bg-dark text-white"
       id="contact"
     >
       <div class="container py-5">
